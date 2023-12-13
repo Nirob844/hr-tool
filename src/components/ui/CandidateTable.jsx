@@ -2,9 +2,10 @@ import img from '../../assets/JivaLOGO.jpg';
 
 const CandidateTable = () => {
     return (
-        <div className="overflow-x-auto bg-gray-100 p-5">
-            <div>
+        <div className="overflow-x-auto bg-[#F7F6F9] p-5">
+            <div className='flex justify-between my-5'>
                 <p className="ml-5 text-lg font-medium">Interview Schedule</p>
+                <button className='bg-[#FFFFFF]'><span className='text-sm font-medium p-2'>Today</span></button>
             </div>
             <table className="min-w-full border border-gray-300">
                 <thead>
