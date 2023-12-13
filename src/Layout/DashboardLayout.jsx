@@ -4,9 +4,9 @@ import Sidebar from "../components/ui/Sidebar";
 
 const DashboardLayout = () => {
     return (
-        <div>
+        <div className="mx-10 my-5">
             <Navbar />
-            <div className="flex">
+            <div className="flex mt-5">
                 <Sidebar />
                 <div className="flex-1">
                     {/* Content area */}
