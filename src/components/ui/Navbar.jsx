@@ -1,21 +1,21 @@
 import { FaBell, FaEnvelope, FaSearch } from 'react-icons/fa';
-import avatar from '../../assets/JivaLOGO.jpg';
-import logo from '../../assets/JivaLOGOVartical.jpg';
+import avatar from '../../assets/avatar.png';
+import logo from '../../assets/JivaLOGOVartical.png';
 
 const Navbar = () => {
     return (
-        <nav className="bg-white p-4 flex justify-between items-center shadow-md">
-            <div className="w-[173px] h-[60px] top-[32px] left-[56px] flex items-center">
-                <img src={logo} alt="Logo" className="h-8 w-auto" />
+        <nav className="p-4 flex justify-between items-center">
+            <div className="w-[180px] h-[60px] top-[32px] left-[56px] flex items-center">
+                <img src={logo} alt="Logo" className="h-14 w-auto" />
             </div>
             <div className="flex items-center">
-                <img src={avatar} alt="Avatar" className="w-[px] h-[48px] rounded-full" />
-                <div className='w-[504px] h-[80px]'>
-                    <p className="w-[228px] h-[29px] text-2xl text-[#333333] font-semibold">Hello, Admirra John</p>
-                    <p className='w-[504px] h-[36px] text-base text-[#6D758F] font-medium'>Welcome to our portal, we require few details about you 40% your profile is completed. Complete Profile Lorem ipsum dolor sit...</p>
+                <img src={avatar} alt="Avatar" className="w-[px] h-[52px] rounded-full" />
+                <div className='w-[504px] h-[80px] ml-4'>
+                    <p className="w-[250px] h-[29px] text-2xl text-[#333333] font-semibold">Hello, Admirra John</p>
+                    <p className='w-[550px] h-[36px] text-base text-[#6D758F] font-medium mt-3'>Welcome to our portal, we require few details about you 40% your profile is completed. Complete Profile Lorem ipsum dolor sit...</p>
                 </div>
             </div>
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-8">
                 {/* Search Bar */}
                 <div className="relative">
                     <input
@@ -27,10 +27,10 @@ const Navbar = () => {
                 </div>
 
                 {/* Notification Icon */}
-                <FaBell className="w-[30px] h-[30px] text-2xl cursor-pointer" />
+                <FaBell className="w-[20px] h-[30px] text-gray-500 cursor-pointer" />
 
                 {/* Message Icon */}
-                <FaEnvelope className="w-[30px] h-[30px] text-2xl cursor-pointer" />
+                <FaEnvelope className="w-[20px] h-[30px] cursor-pointer text-gray-500" />
             </div>
         </nav>
     );
