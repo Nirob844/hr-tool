@@ -1,5 +1,10 @@
 import { IoIosSettings } from "react-icons/io";
 import { MdDashboard } from "react-icons/md";
+import { FaUserPlus } from "react-icons/fa6";
+import { PiUsersThreeFill } from "react-icons/pi";
+import { LiaClipboardListSolid } from "react-icons/lia";
+import { FaUserCog } from "react-icons/fa";
+import { FaHouseSignal } from "react-icons/fa6";
 
 const Sidebar = () => {
     return (
@@ -14,23 +19,23 @@ const Sidebar = () => {
                     <p className="text-[#6D758F] text-base font-semibold">Dashboard</p>
                 </div>
                 <div className="flex [232px] [h-56px] py-[16px] pl-[30px]  gap-[24px] hover:bg-gray-200">
-                    <MdDashboard className="w-[18px] h-[18px] mt-[3px] ml-[3px]" />
+                    <FaUserPlus className="w-[18px] h-[18px] mt-[3px] ml-[3px]" />
                     <p className="text-[#6D758F] text-base font-medium">Creating Job</p>
                 </div>
                 <div className="flex [232px] [h-56px] py-[16px] pl-[30px]  gap-[24px] hover:bg-gray-200">
-                    <MdDashboard className="w-[18px] h-[18px] mt-[3px] ml-[3px]" />
+                    <PiUsersThreeFill className="w-[18px] h-[18px] mt-[3px] ml-[3px]" />
                     <p className="text-[#6D758F] text-base font-medium">Talent Search</p>
                 </div>
                 <div className="flex [232px] [h-56px] py-[16px] pl-[30px]  gap-[24px] hover:bg-gray-200">
-                    <MdDashboard className="w-[18px] h-[18px] mt-[3px] ml-[3px]" />
+                    <LiaClipboardListSolid className="w-[18px] h-[18px] mt-[3px] ml-[3px]" />
                     <p className="text-[#6D758F] text-base font-normal">Applying Job Via Hiring Jiva</p>
                 </div>
                 <div className="flex [232px] [h-56px] py-[16px] pl-[30px]  gap-[24px] hover:bg-gray-200">
-                    <MdDashboard className="w-[18px] h-[18px] mt-[3px] ml-[3px]" />
+                    <FaUserCog className="w-[18px] h-[18px] mt-[3px] ml-[3px]" />
                     <p className="text-[#6D758F] text-base font-normal">Manage Profile</p>
                 </div>
                 <div className="flex [232px] [h-56px] py-[16px] pl-[30px]  gap-[24px] hover:bg-gray-200">
-                    <MdDashboard className="w-[18px] h-[18px] mt-[3px] ml-[3px]" />
+                    <FaHouseSignal className="w-[18px] h-[18px] mt-[3px] ml-[3px]" />
                     <p className="text-[#6D758F] text-base font-normal">Job Status / Job Operations</p>
                 </div>
             </div>
@@ -39,7 +44,7 @@ const Sidebar = () => {
                     <h3 className="text-[#686868] text-xs font-medium uppercase">other</h3>
                 </div>
                 <div className="flex [232px] [h-56px] py-[16px] pl-[30px]  gap-[24px] hover:bg-gray-200">
-                    <IoIosSettings className="w-[18px] h-[18px] mt-[3px] ml-[3px]" />
+                    <FaUserPlus className="w-[18px] h-[18px] mt-[3px] ml-[3px]" />
                     <p className="text-[#6D758F] text-base font-normal">User Management</p>
                 </div>
                 <div className="flex [232px] [h-56px] py-[16px] pl-[30px]  gap-[24px] hover:bg-gray-200">
