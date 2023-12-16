@@ -6,31 +6,42 @@ const Dashboard = () => {
         <div>
             <div className="flex">
                 <div className="flex flex-1 space-x-4">
-                    <div className="flex-1 bg-gray-200 rounded-lg overflow-hidden shadow-md p-6">
+                    <div className="flex-1 bg-gray-200 rounded-lg overflow-hidden shadow-md p-6 h-40">
                         <div className="font-bold text-lg mb-2 text-gray-800">Available Positions</div>
-                        <p className="text-gray-800 text-2xl font-bold">67</p>
+                        <p className="text-gray-800 text-3xl font-bold">67</p>
                     </div>
 
-                    <div className="flex-1 bg-gray-200 rounded-lg overflow-hidden shadow-md p-6">
+                    <div className="flex-1 bg-gray-200 rounded-lg overflow-hidden shadow-md p-6 h-40">
                         <div className="font-bold text-lg mb-2 text-gray-800">Job Open</div>
-                        <p className="text-gray-800 text-2xl font-bold">67</p>
+                        <p className="text-gray-800 text-3xl font-bold">67</p>
                         <p className="text-gray-600 text-sm mt-2">4 Active hiring</p>
                     </div>
 
-                    <div className="flex-1 bg-gray-200 rounded-lg overflow-hidden shadow-md p-6">
+                    <div className="flex-1 bg-gray-200 rounded-lg overflow-hidden shadow-md p-6 h-40">
                         <div className="font-bold text-lg mb-2 text-gray-800">Lorem Ipsum</div>
-                        <p className="text-gray-800 text-2xl font-bold">67</p>
-                        <p className="text-gray-600 text-sm mt-2">4 Active hiring</p>
+                        <p className="text-gray-800 text-3xl font-bold">67</p>
+                        <p className="text-gray-600 text-sm mt-2">4 Department</p>
                     </div>
                 </div>
 
                 <div className="flex flex-col w-4/12 ml-8">
-                    <div className="max-w-2xl bg-white rounded-lg overflow-hidden shadow-md p-6 mb-4">
-                        <div className="font-bold text-lg mb-2 text-gray-800">Recent Activity</div>
+                    <div className="max-w-2xl bg-gray-700 rounded-t-lg overflow-hidden shadow-md p-3">
+                        <div className="font-bold text-lg text-white">Recent Activity</div>
+                    </div>
+                    <div className="max-w-2xl bg-gray-600 rounded-b-lg overflow-hidden shadow-md p-4 mb-2">
+                        <p className="text-gray-200 text-sm">10.40 AM, Fri 10 Sept 2021</p>
+                        <div className="font-bold text-lg text-white mt-2">You Posted a New Job</div>
+                        <p className="text-gray-200 text-sm mt-2 w-10/12">Kindly check the requirements and terms of work and make sure everything is right.</p>
+                        <div className="mt-4 flex items-center">
+                            <p className="text-gray-200 text-sm">Today you made 12 Activities</p>
+                            <button className="ml-4 px-4 py-2 bg-gray-100 text-gray-800 rounded">See All Activity</button>
+                        </div>
                     </div>
                 </div>
             </div>
-            <CandidateTable/>
+            
+            <CandidateTable />
+            <ApplicantsCart />
         </div>
     );
 };
